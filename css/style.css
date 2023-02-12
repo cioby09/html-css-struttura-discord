@@ -1,0 +1,60 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+.flex{
+    display: flex;
+}
+
+/* Layout */
+header{
+    background-color: #ADD8E6;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top{
+    background-color: #DAA520;
+    height: 50px;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+/* Header layout */
+.logo-container,
+.navigation,
+.login-container {
+    border: 2px dashed black;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo-container,
+.login-container {
+    width: 20%;
+}
+
+.navigation {
+    width: 60%;
+    justify-content: center;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.login-container {
+    justify-content: flex-end;
+}
