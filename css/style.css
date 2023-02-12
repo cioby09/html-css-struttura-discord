@@ -58,3 +58,84 @@ ul li {
 .login-container {
     justify-content: flex-end;
 }
+
+/* Jumbotron 1 layout */
+.jumbotron-1 {
+    background-color: #00008B;
+    padding: 50px;
+    height: 500px;
+}
+
+.content-1 {
+    border: 2px dashed black;
+    margin: 0 auto;
+    background-color: #EE82EE;
+    height: 400px;
+    width: 900px;
+}
+
+/* Jumbotron 2,4 layout */
+.jumbotron-2,
+.jumbotron-4 {
+    padding: 50px;
+    height: 600px;
+}
+
+.content-2,
+.content-4 {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+.large-column {
+    border: 2px dashed black;
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.small-column {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+/* Jumbotron 3 layout */
+.jumbotron-3 {
+    background-color: #D3D3D3;
+    padding: 50px;
+    height: 600px;
+}
+
+.content-3 {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+.large-column {
+    border: 2px dashed black;
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.small-column {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+/* Jumbotron 5 layout */
+.jumbotron-5 {
+    background-color: #D3D3D3;
+    padding: 50px;
+    height: 1000px;
+}
+
+.content-5 {
+    border: 2px dashed black;
+    margin: 0 auto;
+    background-color: #228B22;
+    height: 900px;
+    width: 1200px;
+}
